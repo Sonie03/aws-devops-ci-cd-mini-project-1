@@ -1,1 +1,15 @@
-The file is created
+-hosts: all
+become: true
+
+tasks:
+   -name: Install nginx
+   yum:
+   name: nginx
+   state: present
+
+   -name:  Start nginx service
+   service: 
+   name: nginx
+   state: started
+   enable: true
+   
