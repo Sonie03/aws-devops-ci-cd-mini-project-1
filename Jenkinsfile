@@ -8,7 +8,7 @@ pipeline {
       }
     }
     stage('Terraform Provision') {
-      Steps {
+      steps {
         sh '''
           cd terraform
           terraform init
