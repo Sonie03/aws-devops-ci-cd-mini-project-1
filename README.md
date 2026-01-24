@@ -81,14 +81,22 @@ In terraform/Variables.tf
 	Step 4: Configuration management using ansible:
 o	What is ansible?
               Ansible is a tool that installs software automatically, Configure servers, Runs commands remotely, Does not need agent on server.
-Instead of logging into EC2 and installing Nginx manually, Ansible does it automatically.
-Ansible is a configuration management tool used to automate server setup.
+               Instead of logging into EC2 and installing Nginx manually, Ansible does it automatically.
+                Ansible is a configuration management tool used to automate server setup.
 o	Why ansible after terraform?
                  Terraform creates infrastructure (provisions server) and ansible configures them.
 o	What are we configuring now?
               On EC2 we will install Nginx, start Nginx, Enable it to run automatically.
           So in the created ansible folder and file Nginx,
               <img width="406" height="443" alt="image" src="https://github.com/user-attachments/assets/fa8bdaf4-4bb0-4c43-b250-ce8385026d69" />
+	Step 5: Shell Scripting - Application health check:
+           What is Shell scripting?
+               Writing simple commands in a file, automating tasks, mostly used in linux servers.
+               Shell scripting is used to automate operational tasks.
+           what will our shell script do?
+                our script will check if nginx is running, if not running=> check whether the pipeline is failed. jenkins will detect the failure.
+                
+	Step 6:  Jenkins CI/CD pipeline:               
 
  
 
