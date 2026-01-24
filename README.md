@@ -96,7 +96,9 @@ o	What are we configuring now?
            what will our shell script do?
                 our script will check if nginx is running, if not running=> check whether the pipeline is failed. jenkins will detect the failure.
                 
-	Step 6:  Jenkins CI/CD pipeline:               
+	Step 6:  Jenkins CI/CD pipeline:   
+                 Jenkins is a CI/CD automation tool, run jobs automatically 
+              <img width="563" height="662" alt="image" src="https://github.com/user-attachments/assets/7848b4c0-2321-480e-9525-89381b87dea9" />
 
  
 
