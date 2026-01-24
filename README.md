@@ -95,7 +95,8 @@ o	What are we configuring now?
                Shell scripting is used to automate operational tasks.
            what will our shell script do?
                 our script will check if nginx is running, if not running=> check whether the pipeline is failed. jenkins will detect the failure.
-                
+                <img width="358" height="261" alt="image" src="https://github.com/user-attachments/assets/58f017ca-df9a-4d36-8b1e-8634a6ca9116" />
+
 	Step 6:  Jenkins CI/CD pipeline:   
                  Jenkins is a CI/CD automation tool, run jobs automatically 
               <img width="563" height="662" alt="image" src="https://github.com/user-attachments/assets/7848b4c0-2321-480e-9525-89381b87dea9" />
